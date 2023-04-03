@@ -1,0 +1,1063 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 32pt;
+    color: #A963FB;
+}
+   
+h2{
+       font-size: 20pt;
+       color: #A963FB;
+       margin-top: 5%;
+}
+   
+h3{
+       font-size: 18pt;
+}
+   
+.titre_accueil{
+       font-size: 40pt;
+       font-weight: bold;
+       color: #A963FB;
+}
+   
+.prog_titre{
+       text-align: center;
+       color: #663399;
+}
+
+.notes{
+    font-size: 10pt;
+    font-weight: lighter;
+}
+   
+.button_large{
+       padding: 14px 40px 14px 40px;
+       text-decoration: none;
+       color: white;
+       background-color: #A963FB;
+       border-radius: 40px;
+       font-weight: bold;
+       margin-top: 100px;
+   
+}
+   
+.button{
+       padding: 8px 30px;
+       text-decoration: none;
+       color: white;
+       background-color: #A963FB;
+       border-radius: 40px;
+       font-weight: bold;
+       margin-top: 2%;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: max-content;
+}
+   
+.button_menu{
+       display: none;
+}
+
+#espace{
+    margin-top: 12%;
+}
+
+#voir_plus{
+    margin-top: 5%;
+}
+
+.text_partenaire{
+    text-align: center;
+}
+
+.text_sans_marge{
+    padding: 0%;
+    margin: 0%;
+}
+
+#violet{
+    color: #663399;
+    margin-top: 10%;
+}
+
+/* ------------------A PROPOS------------------ */
+.bloc_case_propos{
+    border-radius: 4px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
+    background: white;
+    padding: 22px 68px;
+    text-align: center;
+    color: #663399;
+}
+
+.adresse{
+    background-color: white;
+    width: 20%;
+    border-radius: 8px;
+    padding: 5%;
+    border: #DBDBDB solid 1px;
+    border-radius: 4px;
+}
+
+
+#marge{
+    margin-right: 8%;
+}
+
+.button_large:hover{
+    color: #A963FB;
+    background-color: white;
+}
+
+.button:hover{
+    color: white;
+    background-color: #663399;
+}
+
+.bloc_case_propos:hover{
+    color: #E5C385;
+    background-color: #663399;
+
+}
+
+
+
+.hover:hover{
+    filter: brightness(1.1);
+}
+
+/* -------------------------------------------------@media ordi ------------------------------------------------- */
+@media screen and (min-width: 767px){
+
+body{
+    background-image: url(img/background_accueil.jpg);
+    background-repeat: repeat;
+    margin: 0%;
+    /* background-position-x: center; */
+
+}
+
+
+main{
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+
+.breadcrumb {
+    padding: 0 .5rem;
+}
+
+.breadcrumb a{
+    color: black;
+    font-weight: normal;
+}
+
+.breadcrumb ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+    
+.breadcrumb li:not(:last-child)::after {
+    display: inline-block;
+    margin: 0 .25rem;
+    content: ">";
+}
+    
+.titre_fil{
+    display: flex;
+    align-items: center;
+}
+
+
+.img_prog{
+    border-radius: 4px;
+    width: 100%;
+    justify-content: baseline;
+}
+
+
+/* ------------------HEADER------------------ */
+header{
+    display: flex;
+    gap: 23%;
+    margin-top: 50px;
+    margin-left: 240px;
+    margin-right: 240px;
+
+}
+
+.logo{
+    height: auto;
+    width: 20%;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+    background-color: #663399;
+    color: white;
+    padding: 4px 20px;
+    border-radius: 30px;
+    align-items: center;
+}
+
+
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    width: max-content;
+}
+
+a:hover{
+    color: #E5C385;
+}
+
+#loupe_icon{
+    background-color: white;
+    border-radius: 16px;
+    padding: 8px;
+}
+
+/* ------------------ACCUEIL------------------ */
+#img_header_accueil{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    -webkit-filter: brightness(0.7);
+    opacity: 0.9;
+    width: 1037px;
+}
+
+#bloc_image{
+    position: relative;
+}
+
+#bloc_gauche_accueil{
+    position: absolute;
+    top: 160px;
+    right: 18%;
+    text-align: center;
+    width: 32%;
+    color: white;
+}
+
+/* ------------------A PROPOS------------------ */
+#bloc_propos{
+    margin-top: 10%;
+}
+
+.case_propos{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+
+
+.bloc_programmation{
+    margin-top: 10%;
+}
+
+.bloc_programmation_lien{
+    display: flex;
+    gap: 5%;
+    flex-direction: row;
+}
+
+.prog_lien{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.bloc_adresse{
+    width: 100%;
+    margin: 0%;
+    margin-top: 10%;
+}
+
+.bloc_adresse_flex{
+    display: flex;
+    gap: 5%;
+}
+
+#frame{
+    border-radius: 4px;
+}
+
+}
+
+
+footer{
+    background-image: url(img/footer_fond.png);
+
+}
+
+.bloc_footer{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bloc_footer_flex{
+    display: flex;
+    gap: 2%;
+    justify-content: space-between;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-top: 0%;
+    color: white;
+}
+
+.titre_icon{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.icon{
+    height: 30%;
+    margin-right: 10%;
+}
+
+
+.cookies{
+    display: flex;
+    color: white;
+    gap: 5%;
+    justify-content: center;
+    margin-top: 2%;
+    padding-bottom: 2%;
+    text-decoration: none;
+}
+
+#logo_footer{
+margin-top: 12%;
+}
+
+
+.titre_paiement{
+    display: flex;
+    justify-content: space-between;
+}
+.titre_paiement2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.taille_tarif{
+    width: 14%;
+}
+
+
+.paiement{
+    border: #DBDBDB solid 1px;
+    border-radius: 4px;
+    padding: 10px 40px; 
+    margin-top: 5%;
+}
+
+.trait{
+    border-bottom: #DBDBDB 1px solid;
+    margin-bottom: 1%;
+}
+
+#formulaire{
+    text-align: end;
+}
+
+.total{
+    display: flex;
+    gap: 5%;
+    justify-content: flex-end;
+    background-color: #663399;
+    color: white;
+    border-radius: 8px;
+    padding: 4px 50px;
+    margin-top: 5%;
+}
+
+.icon_paiement{
+    height: 30px;
+    margin-right: 2%;
+}
+
+.paiement2{
+    border: #DBDBDB solid 1px;
+    border-radius: 4px;
+    padding: 10px 40px; 
+    margin-top: 5%;
+}
+
+
+.bloc_concept{
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.bloc_concept_gauche{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.left{
+    display: block;
+    margin-left: 0%;
+}
+
+/* ----------------------------------CSS VAL---------------------------------- */
+
+
+#formulairebloc{
+    margin-top: 50px;
+    background-color: #6B3E91;
+    border-radius: 8px;
+    width: 650px;
+    height: 883px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+.blocformulaire{
+width: 45px;
+height: 40px;
+display: flex;
+align-items: center;
+margin-left: 200px;
+color: white;
+
+}
+
+.form{
+width: 245px;
+height: 29px;
+margin-left: auto;
+margin-right: auto;
+background-color: white;
+display: flex;
+align-items: center;
+border-radius: 50px;
+}
+
+.input{
+margin-right: 20px ;
+display: flex;
+
+font-style: italic;
+color: #0000004D;
+align-items: center;
+    margin-left: 10px;
+
+
+
+}
+
+#blocformulaire-com{
+    width: 45px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 180px;
+    color: white;  
+}
+#form-com{
+    width: 300px;
+    height: 100px;
+    margin-left: auto;
+margin-right: auto;
+background-color: white;
+display: flex;
+
+border-radius: 15px;
+}
+
+#input-com{
+    height: 40px;
+    margin-right: 10px ;
+display: flex;
+font-style: italic;
+color: #0000004D;
+margin-top: 5px;
+    margin-left: 10px;
+    
+}
+.coche-carrer{
+    width: 35px;
+height: 15px;
+background-color: white;
+display: flex;
+
+}
+#reglementation{
+    width: 450px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    margin-left: 100px;
+    gap: 3%;
+}
+
+.bouton{
+    width: 150px;
+    height: 50px;
+     margin-left: auto;
+     margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: #b29ccb;
+    color: white;
+    font-size: 20px;
+   
+}
+
+#imgbouton{
+    width: 30px;
+
+}
+
+form{
+
+}
+
+.form_part{
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    padding: 8px 60px 8px 10px;
+    border-radius: 20px;
+    border: none;
+    border: #DBDBDB solid 1px;
+}
+
+#formulaire{
+
+}
+
+#form_contact{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    padding: 5% 20%;
+    border: #A963FB solid 2px;
+    color: #A963FB;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20%;
+    width: fit-content;
+}
+
+#message{
+    padding-bottom: 100px;
+}
+
+
+#btn-envoyer{
+    padding: 8px 30px;
+    text-decoration: none;
+    color: white;
+    background-color: #A963FB;
+    border-radius: 40px;
+    font-weight: bold;
+    margin-top: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+
+}
+
+
+.activites{
+    display: flex;
+    gap: 5%;
+    
+}
+
+.activity{
+    width: 30%;
+    height: 30%;
+}
+
+#bloc_activites{
+    /* margin-top: 5%; */
+}
+
+.valeur_card{
+    width: 30%;
+    text-align: center;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    padding: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.valeurs{
+    gap: 5%;
+    display: flex;
+}
+
+.icon{
+    width: 40%;
+}
+
+
+.partenaires_logo{
+    width: 20%;
+}
+
+.bloc_partenaires{
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.bloc_reseaux{
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_rs{
+    width: 30%;
+}
+
+.violet{
+    color: #A963FB;
+}
+
+
+.icon_footer{
+    height: 40px;
+}
+
+.sans_marge{
+    margin-top: 0%;
+}
+
+.rs_footer_flex{
+    display: flex;
+    gap: 10%;
+
+}
+
+.bouton_menu{
+    background-color: white;
+    padding: 6px 10px;
+    color: #A963FB;
+    border-radius: 20px;
+    margin-right: 2px;
+}
+
+.white{
+    background-color: white;
+    color: #A963FB;
+    margin-top: 0%;
+}
+
+
+.ligne_1{
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+    margin-bottom: 2%;
+}
+
+.ligne_2{
+    display: flex;
+    gap: 15%;
+    margin-bottom: 2%;
+}
+
+.justify{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+
+  
+.programme_jour{
+    display: none;
+}
+
+
+.stand_card{
+    background-color: #663399;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 20px 40px;
+
+}
+
+.stands{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    justify-content: center;
+}
+
+
+#hide{
+    display: none;
+    visibility: hidden;
+}
+
+
+.norm{
+    display: block;
+}
+
+.none{
+    display: none;
+}
+
+
+/* -------------------------------------------------@media phone ------------------------------------------------- */
+@media screen and (max-width: 767px){
+    body{
+        margin-left: 30px;
+        margin-right: 30px;
+    
+    }
+
+    header{
+        display: flex;
+    }
+
+    h1{
+        font-size: 16pt;
+        color: #A963FB;
+    }
+       
+    h2{
+           font-size: 14pt;
+           color: #A963FB;
+    }
+       
+    h3{
+           font-size: 10pt;
+    }
+       
+    .breadcrumb {
+        display: none;
+    }
+
+    .menu{
+        position: fixed; 
+        display: none; 
+        width: 100%; 
+        background-color: white; 
+        z-index: 2; 
+        cursor: pointer; 
+        /* margin: 10%; */
+        font-weight: bold;
+        text-align: center;
+        top: 0%;
+        /* left: 0%; */
+        align-content: space-around;
+        padding-top: 10%;
+
+    }
+
+    a{
+        margin-bottom: 5%;
+        text-decoration: none;
+        color: black;
+        display: block;
+    }
+
+    #loupe_icon{
+        border-radius: 16px;
+        padding: 8px;
+        margin-bottom: 5%;
+    }
+
+    .logo{
+        height: auto;
+        max-width: 40%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10%;
+    }
+
+    .button_large{
+        display: none;
+        visibility: hidden;
+    }
+
+
+
+    .button_menu{
+        display: block;
+        background-color: #663399;
+        border-radius: 16px;
+        border: none;
+        padding: 8px 7px 7px 8px;
+        height: 60px;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 5;
+
+    }
+
+    #img_header_accueil{
+        width: 100%;
+        border-radius: 4px;
+    }
+
+    #bloc_gauche_accueil{
+        text-align: left;
+        width: 100%;
+        color: black;
+        height: 100%;
+    }
+
+    #bloc_accueil_presentation{
+        text-align: left;
+        width: 100%;
+        color: black;
+        height: 100%;
+    }
+
+
+
+    .img_prog{
+        border-radius: 4px;
+        width: 100%;
+        justify-content: baseline;
+    }
+
+    .bloc_programmation{
+        margin-top: 10%;
+    }
+    
+    .bloc_programmation_lien{
+        width: 100%;
+    }
+        
+    .prog_lien{
+        display: block;
+
+    }
+    .responsive_prog{
+        width: 40%;
+    }
+
+    #bloc_propos{
+        margin-top: 20%;
+    }
+
+    .responsive_programmation{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10%;
+    }
+
+    .responsive_partenaire{
+        display: block;
+        flex-wrap: nowrap;
+    }
+
+    .bloc_adresse{
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    .adresse{
+        width: 80%;
+    }
+
+    #frame{
+        width: 90%;
+        border-radius: 4px;
+    }
+
+    footer{
+        margin-top: 15%;
+        background-image: none;
+        color: black;
+    }
+
+    .bloc_footer{
+        width: 100%;
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+
+    }
+
+    .bloc_footer-flex{
+        display: block;
+        margin-top: 0%;
+        color: black;
+        width: 100%;
+        margin-left:auto;
+        margin-right: auto;
+    }
+
+
+    .cookies{
+        display: flex;
+        color: black;
+        gap: 5%;
+        justify-content: center;
+        margin-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    #form_contact{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
+        border-radius: 8px;
+        padding: 10% 25%;
+        color: #A963FB;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20%;
+        width: fit-content;
+        border: #A963FB solid 2px;
+    }
+
+    .bloc_concept{
+        display: flex;
+        flex-direction: column;
+        gap: 5%;
+    }
+
+    .bloc_concept_gauche{
+        display: flex;
+        flex-direction: column;
+        gap: 5%;
+    }
+    .valeur_card{
+        width: 80%;
+        text-align: center;
+        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
+        border-radius: 8px;
+        padding: 2%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+    }
+
+    .valeurs{
+        gap: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .programme_jour{
+        display: block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+    }
+
+    .justify{
+        display: none;
+    }
+    
+    #hide{
+        display: block;
+    }
+
+    .titre_icon{
+        display: flex;
+        flex-direction: row;
+        color: black;
+    }
+
+    .black{
+        color: black;
+    }
+    .icon{
+        height: 30%;
+        margin-right: 10%;
+    }
+    
+    
+    .cookies{
+        display: flex;
+        color: black;
+        gap: 5%;
+        justify-content: center;
+        margin-top: 2%;
+        padding-bottom: 2%;
+        text-decoration: none;
+    }
+    
+    .norm{
+        display: none;
+    }
+    
+    .resp{
+        display: block;
+    }
+    
+    .bloc_footer_flex{
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .largeur{
+        width: 40%;
+    }
+
+    a:hover{
+    color: #E5C385;
+
+
+}
+
+.none{
+    display: block;
+}
+}
